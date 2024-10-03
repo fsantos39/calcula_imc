@@ -1,0 +1,28 @@
+.header {
+    background-color: var(--fundoCor);
+    padding: 24px 42px;
+    border-bottom: 2px var(--segundaCor);
+    border-top: 2px solid var(--segundaCor);
+    border-left: 2px solid var(--segundaCor);
+    border-right: 2px solid var(--segundaCor);
+    border-radius: 5px;
+}
+
+.header__title {
+    font-size: 48px;
+    text-align: center;
+}
+
+.header__description {
+    margin: 24px 60px 0;
+    color: var(--segundaCor);
+    line-height: 24px;
+    font-size: 14px;
+    display: flex;
+    gap: 16px
+}
+
+.enhance {
+    border-bottom: 6px dotted var(--segundaCor);
+    cursor: help;
+}
